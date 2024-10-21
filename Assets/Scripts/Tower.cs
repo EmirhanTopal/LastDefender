@@ -6,6 +6,7 @@ using UnityEngine;
 public class Tower : MonoBehaviour
 {
     private GameObject _enemy;
+    [SerializeField] private GameObject towerTop;
     private void Start()
     {
         _enemy = GameObject.FindGameObjectWithTag("Enemy");
@@ -18,6 +19,6 @@ public class Tower : MonoBehaviour
 
     void LookAtEnemy()
     {
-        transform.LookAt(_enemy.transform.position);
+        towerTop.transform.LookAt(_enemy.transform.position);
     }
 }
