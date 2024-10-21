@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 64cd050176784854a912530e8470a06b, type: 2}
+    - target: {fileID: 6612996604160054087, guid: beb7ce6e3265074419036b47d6bcf61c, type: 3}
+      propertyPath: placeable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8000757056266249290, guid: beb7ce6e3265074419036b47d6bcf61c, type: 3}
       propertyPath: m_text
       value: 1,1

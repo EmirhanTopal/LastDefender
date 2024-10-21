@@ -35,7 +35,7 @@ public class MoveEnemy : MonoBehaviour
                 t = timeElapsed / duration; 
                 transform.position = Vector3.Lerp(startPoint, endPoint, t);
                 timeElapsed += Time.deltaTime * speed; 
-                Debug.Log(Time.deltaTime);
+                //Debug.Log(Time.deltaTime);
                 yield return null;
             }
             //Burada t değeri sabit bir hızla artar ve 1 değerine ulaşınca durur.
