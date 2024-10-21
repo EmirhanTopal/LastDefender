@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    private GameObject _enemy;
+    private Transform _enemy;
+    public int arrowDamage;
     [SerializeField] private GameObject towerTop;
     private void Start()
     {
-        _enemy = GameObject.FindGameObjectWithTag("Enemy");
+        _enemy = GameObject.FindObjectOfType<MoveEnemy>().transform;
     }
 
     private void Update()
@@ -19,6 +20,9 @@ public class Tower : MonoBehaviour
 
     void LookAtEnemy()
     {
-        towerTop.transform.LookAt(_enemy.transform.position);
+        if (_enemy != null) // önemli nokta - burada missing reference exception hatası alıyorduk. enemy destroy olsunca halen erişmeye çalışılınıyordu.
+        {
+            towerTop.transform.LookAt(_enemy.transform.position);
+        }
     }
 }

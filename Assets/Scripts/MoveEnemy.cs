@@ -7,15 +7,13 @@ public class MoveEnemy : MonoBehaviour
 {
     [SerializeField] List<Waypoints> _waypoints = new List<Waypoints>();
     [SerializeField] [Range(0f, 10f)] float speed;
-    [SerializeField] private int duration; // süre
+    [SerializeField] private int duration;
     
     private Vector3 _wpVector3;
     void Start()
     {
         StartCoroutine(DisplayWaypointsName());
     }
-    
-
     IEnumerator DisplayWaypointsName()
     {
         foreach (Waypoints waypoint in _waypoints)
