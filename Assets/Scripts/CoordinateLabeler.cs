@@ -7,11 +7,19 @@ using TMPro;
 // [ExecuteAlways] sadece play off mode da çalışır edit modunda
 public class CoordinateLabeler : MonoBehaviour
 {
+    [SerializeField] Color defaultColor = Color.yellow;
+    [SerializeField] Color noSpaceColor = Color.red;
     private TextMeshPro _label;
-    private Vector2Int _v2Int = new Vector2Int(); // sadece v2 int değerleriyle çalışmak için - vector2 float değerlerde alabilr
+    
+    // sadece v2 int değerleriyle çalışmak için - vector2 float değerlerde alabilr
+    private Vector2Int _v2Int = new Vector2Int();
+    [SerializeField] private bool lablesIsVisible = true;
+    private Waypoints _waypoint;
     void Awake()
     {
         _label = GetComponent<TextMeshPro>();
+        _label.enabled = false;
+        _waypoint = GetComponentInParent<Waypoints>(); // textmeshpro nun parent obje içinde
     }
     void Update()
     {
@@ -25,8 +33,32 @@ public class CoordinateLabeler : MonoBehaviour
             DisplayCoordinates();
             DisplayNameCoordinates();
         }
+        
+        ColorInSituation();
+        OnOffLables();
     }
-
+    
+    // toggle : geçiş yap, geçiş, durumlu
+    void OnOffLables()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            _label.enabled = !_label.IsActive(); // isActive: yeni method
+        }
+    }
+    
+    void ColorInSituation()
+    {
+        if (_waypoint.IsEmpty == false)
+        {
+            _label.color = noSpaceColor;
+        }
+        else
+        {
+            _label.color = defaultColor;
+        }
+    }
+    
     void DisplayCoordinates()
     {
         //Parent pozisyonuna erişmeye çalışmamızın sebebi onun koordinatları üzerinden işlem yapacağız.
