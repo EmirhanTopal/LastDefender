@@ -5,18 +5,36 @@ using UnityEngine;
 
 public class MoveEnemy : MonoBehaviour
 {
-    [SerializeField] List<Waypoints> _waypoints = new List<Waypoints>();
+    [SerializeField] List<Waypoints> waypoints = new List<Waypoints>();
     [SerializeField] [Range(0f, 10f)] float speed;
     [SerializeField] private int duration;
     
     private Vector3 _wpVector3;
     void Start()
     {
+        FindPath();
         StartCoroutine(DisplayWaypointsName());
+    }
+
+    void FindPath()
+    {
+        waypoints.Clear();
+        
+        GameObject pathObjects = GameObject.FindGameObjectWithTag("Path");
+        /* Her bir path nesnesinin içinde bir (component) olarak bulunan Waypoints script'ini alıyor. GetComponent
+        <Waypoints>() fonksiyonu, bu path nesnesinde Waypoints adlı (script) arar.
+        Eğer bu nesneye atanmış bir Waypoints script'i varsa, onu alıp waypoints adlı listeye ekliyor.*/
+        
+        /* foreach (Transform path in pathObject.transform) ifadesi,
+        pathObject nesnesinin child nesneleri üzerinde döngü oluşturur.*/
+        foreach (Transform path in pathObjects.transform)
+        {
+            waypoints.Add(path.GetComponent<Waypoints>());
+        }
     }
     IEnumerator DisplayWaypointsName()
     {
-        foreach (Waypoints waypoint in _waypoints)
+        foreach (Waypoints waypoint in waypoints)
         {
             float timeElapsed = 0; // geçen süre
             Vector3 startPoint = this.transform.position;
