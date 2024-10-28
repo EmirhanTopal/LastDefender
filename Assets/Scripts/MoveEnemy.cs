@@ -13,6 +13,7 @@ public class MoveEnemy : MonoBehaviour
     void Start()
     {
         FindPath();
+        ReturnToStart();
         StartCoroutine(DisplayWaypointsName());
     }
 
@@ -31,6 +32,11 @@ public class MoveEnemy : MonoBehaviour
         {
             waypoints.Add(path.GetComponent<Waypoints>());
         }
+    }
+
+    void ReturnToStart() // başlangıçta enemy i start position a götürmek için (rastgele yerlerden gelmemesi için)
+    {
+        transform.position = waypoints[0].transform.position;
     }
     IEnumerator DisplayWaypointsName()
     {
@@ -64,10 +70,8 @@ public class MoveEnemy : MonoBehaviour
             //     transform.position = Vector3.Lerp(startPoint, endPoint, t);
             //     yield return new WaitForEndOfFrame();
             // }
-            
-
-            
         }
+        Destroy(gameObject);
     }
 
 }
