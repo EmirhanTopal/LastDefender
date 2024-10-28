@@ -7,7 +7,7 @@ public class ObjectPool : MonoBehaviour
 {
     [SerializeField] private float spawnDuration;
     [SerializeField] private GameObject enemy;
-    private float _duration;
+    private float _duration = 0;
 
     private void Start()
     {
@@ -15,17 +15,16 @@ public class ObjectPool : MonoBehaviour
     }
     IEnumerator SpawnEnemies()
     {
-        while (true)
+        // Recursive
+        // Instantiate(enemy, enemy.transform.position, Quaternion.identity);
+        // yield return new WaitForSeconds(spawnDuration);
+        // StartCoroutine(SpawnEnemies());
+        
+        // Iterative
+        while (_duration < spawnDuration)
         {
-            _duration = Time.time;
-            if (_duration / spawnDuration > 0.98f)
-            {
-                spawnDuration += 1;
-                Debug.Log(spawnDuration);
-                Debug.Log(_duration);
-                Instantiate(enemy, enemy.transform.position, Quaternion.identity);
-                yield return new WaitForSeconds(spawnDuration);
-            }
+            Instantiate(enemy,transform);
+            yield return new WaitForSeconds(spawnDuration);
         }
     }
 }
