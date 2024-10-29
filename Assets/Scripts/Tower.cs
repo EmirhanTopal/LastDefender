@@ -8,11 +8,19 @@ public class Tower : MonoBehaviour
     private Transform _enemy;
     public int arrowDamage;
     [SerializeField] private GameObject towerTop;
-    private float distance;
-    
+    [Range(30, 60)] [SerializeField] private float rangeOfTower;
+    private ParticleSystem _arrow;
+    private float _distance;
+
+    private void Start()
+    {
+        _arrow = GetComponentInChildren<ParticleSystem>();
+    }
+
     private void Update()
     {
         FindClosestEnemy();
+        LookAtEnemy();
     }
 
     void FindClosestEnemy()
@@ -22,20 +30,43 @@ public class Tower : MonoBehaviour
         float bigNumber = Mathf.Infinity; // kontrol amaçlı ilk if i çalıştırabilmek için
         foreach (Enemy enemy in enemies)
         {
-            distance = Vector3.Distance(this.transform.position, enemy.transform.position);
-            if (distance < bigNumber)
+            _distance = Vector3.Distance(this.transform.position, enemy.transform.position);
+            if (_distance < bigNumber)
             {
-                bigNumber = distance;
+                bigNumber = _distance;
+                Debug.Log(_distance);
                 closestEnemy = enemy.transform;
             }
         }
-        LookAtEnemy(closestEnemy);
+        _enemy = closestEnemy;
     }
-    void LookAtEnemy(Transform enemy)
+    void Attack(bool isActive)
     {
-        if (enemy != null) // önemli nokta - burada missing reference exception hatası alıyorduk. enemy destroy olsunca halen erişmeye çalışılınıyordu.
+        var emissionModule = _arrow.emission;
+        emissionModule.enabled = isActive;
+    }
+    
+    void LookAtEnemy()
+    {
+        /* _distance değeri sadece en yakın enemy i buldurmak için kullanılır. 
+         Fakat bu düşman sürekli hareket ettiği için mesafeyi her framde de güncellememiz gerekiyor.
+        _distance değerini bu sebepten dolayı kullanamayız. */
+        float newDistance = Vector3.Distance(this.transform.position, _enemy.transform.position); 
+        if (newDistance < rangeOfTower)
         {
-            towerTop.transform.LookAt(enemy.transform.position);
+            var emissionModule = _arrow.emission;
+            if (emissionModule.enabled == false)
+            {
+                Attack(true);
+            }
+        }
+        else
+        {
+            Attack(false);
+        }
+        if (_enemy != null) // önemli nokta - burada missing reference exception hatası alıyorduk. enemy destroy olsunca halen erişmeye çalışılınıyordu.
+        {
+            towerTop.transform.LookAt(_enemy.transform.position);
         }
     }
 }

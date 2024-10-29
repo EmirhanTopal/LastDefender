@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrowDamage: 1
   towerTop: {fileID: 6131056645070147807}
+  rangeOfTower: 41.1
 --- !u!1 &3457075263645188555
 GameObject:
   m_ObjectHideFlags: 0
