@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7348212356117275999}
   - component: {fileID: 3283002930919076373}
   - component: {fileID: 2727590543145064697}
+  - component: {fileID: -4031931975166560472}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -85,6 +86,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealthPoint: 5
   currentPoint: 5
+--- !u!114 &-4031931975166560472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725296227143734143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd89d3d26a027c4db03b232f32997f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6552297025593324989
 PrefabInstance:
   m_ObjectHideFlags: 0

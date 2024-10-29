@@ -8,21 +8,34 @@ public class Tower : MonoBehaviour
     private Transform _enemy;
     public int arrowDamage;
     [SerializeField] private GameObject towerTop;
-    private void Start()
-    {
-        _enemy = GameObject.FindObjectOfType<MoveEnemy>().transform;
-    }
-
+    private float distance;
+    
     private void Update()
     {
-        LookAtEnemy();
+        FindClosestEnemy();
     }
 
-    void LookAtEnemy()
+    void FindClosestEnemy()
     {
-        if (_enemy != null) // önemli nokta - burada missing reference exception hatası alıyorduk. enemy destroy olsunca halen erişmeye çalışılınıyordu.
+        Enemy[] enemies = FindObjectsOfType<Enemy>();
+        Transform closestEnemy = null;
+        float bigNumber = Mathf.Infinity; // kontrol amaçlı ilk if i çalıştırabilmek için
+        foreach (Enemy enemy in enemies)
         {
-            towerTop.transform.LookAt(_enemy.transform.position);
+            distance = Vector3.Distance(this.transform.position, enemy.transform.position);
+            if (distance < bigNumber)
+            {
+                bigNumber = distance;
+                closestEnemy = enemy.transform;
+            }
+        }
+        LookAtEnemy(closestEnemy);
+    }
+    void LookAtEnemy(Transform enemy)
+    {
+        if (enemy != null) // önemli nokta - burada missing reference exception hatası alıyorduk. enemy destroy olsunca halen erişmeye çalışılınıyordu.
+        {
+            towerTop.transform.LookAt(enemy.transform.position);
         }
     }
 }
