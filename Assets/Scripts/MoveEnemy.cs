@@ -10,7 +10,10 @@ public class MoveEnemy : MonoBehaviour
     [SerializeField] private int duration;
     
     private Vector3 _wpVector3;
-    void Start()
+    
+    /*OnEnable kullanmamızın sebebi: pool içindeki gameobject ler disable ve enable olmakta,
+    bu sebepten dolayı disable olan objemiz tekrar enable olduğunda path i bulmasını ve start noktasına geri dönmesini sağlıyoruz.*/
+    void OnEnable()
     {
         FindPath();
         ReturnToStart();
@@ -71,7 +74,7 @@ public class MoveEnemy : MonoBehaviour
             //     yield return new WaitForEndOfFrame();
             // }
         }
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
 }

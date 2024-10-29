@@ -47,30 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 996b641249af8c94c811ecd490bc3bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  waypoints: []
   speed: 2.14
   duration: 1
 --- !u!65 &3283002930919076373
@@ -106,7 +83,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce812ee7d3ff6c148a1063ec9d3a111e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealtPoint: 5
+  enemyHealthPoint: 5
+  currentPoint: 5
 --- !u!1001 &6552297025593324989
 PrefabInstance:
   m_ObjectHideFlags: 0

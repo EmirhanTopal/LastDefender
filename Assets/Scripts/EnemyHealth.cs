@@ -1,23 +1,30 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] private int enemyHealtPoint;
+    [SerializeField] private int enemyHealthPoint;
+    [SerializeField] private int currentPoint;
     private Tower _tower;
-    
+
+    private void OnEnable()
+    {
+        currentPoint = enemyHealthPoint;
+    }
+
     private void OnParticleCollision(GameObject other)
     {
         if (other.gameObject.CompareTag("Arrow"))
         {
             _tower = GameObject.FindObjectOfType<Tower>();
-            enemyHealtPoint -= _tower.arrowDamage;
+            currentPoint -= _tower.arrowDamage;
         }
 
-        if (enemyHealtPoint <= 0)
+        if (currentPoint <= 0)
         {
-            Destroy(gameObject); 
+            gameObject.SetActive(false); 
         }
     }
 }
