@@ -11,12 +11,10 @@ public class Waypoints : MonoBehaviour
     [SerializeField] private bool isEmpty = true;
     [SerializeField] private GameObject tower;
     private TowerManager _towerManager;
-    private BankManager _bank;
     private bool _canBuy;
     private void Start()
     {
         _towerManager = FindObjectOfType<TowerManager>();
-        _bank = FindObjectOfType<BankManager>();
     }
 
     // aynısı. getter properties.

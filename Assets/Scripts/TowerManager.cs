@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class TowerManager : MonoBehaviour
 {
-    private int _costOfTower = 30;
+    [SerializeField] int costOfTower = 30;
     private Waypoints _waypoints;
     private BankManager _bank;
     private void Start()
@@ -16,12 +17,15 @@ public class TowerManager : MonoBehaviour
     
     public bool HaveMoney()
     {
-        if (_bank.CurrentMoney >= 30)
+        if (_bank == null)
         {
-            _bank.Withdraw(_costOfTower);
+            return false;
+        }
+        if (_bank.CurrentMoney >= costOfTower)
+        {
+            _bank.Withdraw(costOfTower);
             return true;
         }
-
         return false;
     }
 }
