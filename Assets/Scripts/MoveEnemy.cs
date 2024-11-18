@@ -8,7 +8,8 @@ public class MoveEnemy : MonoBehaviour
     [SerializeField] List<Waypoints> waypoints = new List<Waypoints>();
     [SerializeField] [Range(0f, 10f)] float speed;
     [SerializeField] private int duration;
-    
+
+    private Enemy _enemy;
     private Vector3 _wpVector3;
     
     /*OnEnable kullanmamızın sebebi: pool içindeki gameobject ler disable ve enable olmakta,
@@ -18,6 +19,11 @@ public class MoveEnemy : MonoBehaviour
         FindPath();
         ReturnToStart();
         StartCoroutine(DisplayWaypointsName());
+    }
+
+    private void Start()
+    {
+        _enemy = GetComponent<Enemy>();
     }
 
     void FindPath()
@@ -43,13 +49,15 @@ public class MoveEnemy : MonoBehaviour
     }
     IEnumerator DisplayWaypointsName()
     {
+        int index = -1;
         foreach (Waypoints waypoint in waypoints)
         {
             float timeElapsed = 0; // geçen süre
             Vector3 startPoint = this.transform.position;
             Vector3 endPoint = waypoint.transform.position;
             float t = 0f;
-
+            index += 1;
+            
             transform.LookAt(endPoint);
             
             // Bu döngüde hareket, belirlenen bir süre (duration) boyunca orantılı olarak gerçekleşir.
@@ -63,6 +71,7 @@ public class MoveEnemy : MonoBehaviour
                 //Debug.Log(Time.deltaTime);
                 yield return null;
             }
+            
             //Burada t değeri sabit bir hızla artar ve 1 değerine ulaşınca durur.
             //Ancak bu artış, sürenin ne kadar sürdüğüne bağlı değildir; sadece her frame'deki deltaTime artışına bağlıdır.
             //Bu yüzden, FPS (Frame Per Second) değerine göre hız değişebilir. FPS düşükse, hareket yavaş olabilir; FPS yüksekse hareket hızlanabilir.
@@ -74,6 +83,7 @@ public class MoveEnemy : MonoBehaviour
             //     yield return new WaitForEndOfFrame();
             // }
         }
+        _enemy.Theif();
         gameObject.SetActive(false);
     }
 

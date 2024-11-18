@@ -34,7 +34,7 @@ public class Tower : MonoBehaviour
             if (_distance < bigNumber)
             {
                 bigNumber = _distance;
-                Debug.Log(_distance);
+                //Debug.Log(_distance);
                 closestEnemy = enemy.transform;
             }
         }

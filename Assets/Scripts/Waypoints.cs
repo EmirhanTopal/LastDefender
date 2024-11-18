@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,15 @@ public class Waypoints : MonoBehaviour
     [SerializeField] private bool placeable;
     [SerializeField] private bool isEmpty = true;
     [SerializeField] private GameObject tower;
-    
+    private TowerManager _towerManager;
+    private BankManager _bank;
+    private bool _canBuy;
+    private void Start()
+    {
+        _towerManager = FindObjectOfType<TowerManager>();
+        _bank = FindObjectOfType<BankManager>();
+    }
+
     // aynısı. getter properties.
     public bool IsEmpty { get { return isEmpty; } }
     // public bool GetIsPlaceable()
@@ -17,14 +26,17 @@ public class Waypoints : MonoBehaviour
     //     return isEmpty;
     // }
     
+    
+    //This event is sent to all scripts of the GameObject with Collider. Scripts of the parent or child objects do not receive this event.
     private void OnMouseDown()
     {
-        if (placeable && isEmpty)
+        _canBuy = _towerManager.HaveMoney();
+        if (placeable && isEmpty && _canBuy)
         {
             Vector3 towerPosition = new Vector3(transform.position.x, transform.position.y + 1.53f, transform.position.z);
             tower = Instantiate(tower, towerPosition, Quaternion.identity);
             isEmpty = false; // grid space control
-            Debug.Log(isEmpty);
+            //Debug.Log(isEmpty);
         }
     }
 }
