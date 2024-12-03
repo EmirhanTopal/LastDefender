@@ -3,16 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private int enemyHealthPoint;
-    [SerializeField] private int currentPoint;
+    [Tooltip("Adds amount of difficulty health when enemy die")]
+    [SerializeField] private int difficultyHealthPoint;
+    private int _currentPoint = 0;
     private Tower _tower;
     private Enemy _enemy;
 
     private void OnEnable()
     {
-        currentPoint = enemyHealthPoint;
+        _currentPoint = enemyHealthPoint;
     }
 
     private void Start()
@@ -25,12 +28,13 @@ public class EnemyHealth : MonoBehaviour
         if (other.gameObject.CompareTag("Arrow"))
         {
             _tower = GameObject.FindObjectOfType<Tower>();
-            currentPoint -= _tower.arrowDamage;
+            _currentPoint -= _tower.arrowDamage;
         }
 
-        if (currentPoint <= 0)
+        if (_currentPoint <= 0)
         {
             gameObject.SetActive(false);
+            enemyHealthPoint += difficultyHealthPoint;
             _enemy.Reward();
         }
     }

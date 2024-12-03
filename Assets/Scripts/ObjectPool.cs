@@ -5,12 +5,10 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    [SerializeField] private float spawnDuration;
+    [SerializeField] [Range(0.1f, 1)] private  float  spawnDuration;
     [SerializeField] private GameObject enemy;
-    [SerializeField] private int poolSize;
+    [SerializeField] [Range(0, 50)] private int poolSize;
     private GameObject[] _pool;
-    private float _duration = 0;
-    private bool iss = true;
 
     private void Start()
     {
@@ -57,7 +55,7 @@ public class ObjectPool : MonoBehaviour
         // StartCoroutine(SpawnEnemies());
         
         // Iterative
-        while (_duration < spawnDuration)
+        while (spawnDuration > 0)
         {
             EnablePool();
             yield return new WaitForSeconds(spawnDuration);

@@ -86,6 +86,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealthPoint: 5
   currentPoint: 5
+  difficultyHealthPoint: 2
 --- !u!114 &-4031931975166560472
 MonoBehaviour:
   m_ObjectHideFlags: 0

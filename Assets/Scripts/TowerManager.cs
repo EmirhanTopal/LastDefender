@@ -7,11 +7,9 @@ using UnityEngine;
 public class TowerManager : MonoBehaviour
 {
     [SerializeField] int costOfTower = 30;
-    private Waypoints _waypoints;
     private BankManager _bank;
     private void Start()
     {
-        _waypoints = FindObjectOfType<Waypoints>();
         _bank = FindObjectOfType<BankManager>();
     }
     

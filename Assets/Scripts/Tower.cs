@@ -51,22 +51,22 @@ public class Tower : MonoBehaviour
         /* _distance değeri sadece en yakın enemy i buldurmak için kullanılır. 
          Fakat bu düşman sürekli hareket ettiği için mesafeyi her framde de güncellememiz gerekiyor.
         _distance değerini bu sebepten dolayı kullanamayız. */
-        float newDistance = Vector3.Distance(this.transform.position, _enemy.transform.position); 
-        if (newDistance < rangeOfTower)
-        {
-            var emissionModule = _arrow.emission;
-            if (emissionModule.enabled == false)
-            {
-                Attack(true);
-            }
-        }
-        else
-        {
-            Attack(false);
-        }
         if (_enemy != null) // önemli nokta - burada missing reference exception hatası alıyorduk. enemy destroy olsunca halen erişmeye çalışılınıyordu.
         {
             towerTop.transform.LookAt(_enemy.transform.position);
+            float newDistance = Vector3.Distance(this.transform.position, _enemy.transform.position); 
+            if (newDistance < rangeOfTower)
+            {
+                var emissionModule = _arrow.emission;
+                if (emissionModule.enabled == false)
+                {
+                    Attack(true);
+                }
+            }
+            else
+            {
+                Attack(false);
+            }
         }
     }
 }

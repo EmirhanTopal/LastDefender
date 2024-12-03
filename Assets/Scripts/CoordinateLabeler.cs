@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(TextMeshPro))]
 [ExecuteInEditMode] // hem play hem play off moduna çalıştırması için ayarlayabiliriz
 // [ExecuteAlways] sadece play off mode da çalışır edit modunda
 public class CoordinateLabeler : MonoBehaviour

@@ -30,14 +30,14 @@ public class MoveEnemy : MonoBehaviour
     {
         waypoints.Clear();
         
-        GameObject pathObjects = GameObject.FindGameObjectWithTag("Path");
+        GameObject pathParent = GameObject.FindGameObjectWithTag("Path");
         /* Her bir path nesnesinin içinde bir (component) olarak bulunan Waypoints script'ini alıyor. GetComponent
         <Waypoints>() fonksiyonu, bu path nesnesinde Waypoints adlı (script) arar.
         Eğer bu nesneye atanmış bir Waypoints script'i varsa, onu alıp waypoints adlı listeye ekliyor.*/
         
         /* foreach (Transform path in pathObject.transform) ifadesi,
         pathObject nesnesinin child nesneleri üzerinde döngü oluşturur.*/
-        foreach (Transform path in pathObjects.transform)
+        foreach (Transform path in pathParent.transform)
         {
             waypoints.Add(path.GetComponent<Waypoints>());
         }
@@ -46,6 +46,12 @@ public class MoveEnemy : MonoBehaviour
     void ReturnToStart() // başlangıçta enemy i start position a götürmek için (rastgele yerlerden gelmemesi için)
     {
         transform.position = waypoints[0].transform.position;
+    }
+
+    void EndOfThePath()
+    {
+        _enemy.Theif();
+        gameObject.SetActive(false);
     }
     IEnumerator DisplayWaypointsName()
     {
@@ -83,8 +89,7 @@ public class MoveEnemy : MonoBehaviour
             //     yield return new WaitForEndOfFrame();
             // }
         }
-        _enemy.Theif();
-        gameObject.SetActive(false);
+        EndOfThePath();
     }
 
 }
