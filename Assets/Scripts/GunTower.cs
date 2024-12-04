@@ -7,16 +7,25 @@ using UnityEngine.Serialization;
 public class GunTower : MonoBehaviour
 {
     [SerializeField] private GameObject particleSystem;
-    private ParticleSystem _bulletParticle;
     [SerializeField] [Range(10, 200)] private float rangeOfGunTower;
     [SerializeField] private GameObject gunMan;
     [SerializeField] private Animator animator;
+    [SerializeField] private float slerpRotationSpeed;
+    [SerializeField] private int bulletDamage;
+    [SerializeField] private int costOfGunTower = 50;
+    public int CostOfGunTower
+    {
+        get { return costOfGunTower; }
+    }
+    public int BulletDamage
+    {
+        get { return bulletDamage; }
+    }
+    private ParticleSystem _bulletParticle;
     private string _isFire = "fire";
     private Transform _enemyTransform;
     private float _distanceEnemy;
     private float _newDistance;
-    [SerializeField] private float slerpRotationSpeed;
-    
     
     private void Start()
     {

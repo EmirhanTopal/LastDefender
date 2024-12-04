@@ -137,6 +137,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6612996604160054087, guid: beb7ce6e3265074419036b47d6bcf61c, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6612996604160054087, guid: beb7ce6e3265074419036b47d6bcf61c, type: 3}
       propertyPath: placeable
       value: 1
       objectReference: {fileID: 0}

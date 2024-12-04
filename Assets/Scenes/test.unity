@@ -182,6 +182,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -270,6 +278,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -342,6 +358,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -494,9 +518,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -571,6 +603,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -638,6 +674,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 4,0
@@ -859,9 +903,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -941,6 +993,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -1012,6 +1068,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -1085,9 +1145,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -1177,9 +1245,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -1253,6 +1329,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -1331,6 +1415,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -1529,6 +1617,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -1600,6 +1692,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 52afb37c5ba60e64bb18057f55b50006, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 52afb37c5ba60e64bb18057f55b50006, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 52afb37c5ba60e64bb18057f55b50006, type: 3}
       propertyPath: m_text
       value: 5,0
@@ -1665,9 +1765,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -1845,6 +1953,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -1912,6 +2024,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -2278,9 +2398,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -2370,6 +2498,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
       objectReference: {fileID: 0}
@@ -2453,9 +2589,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -2681,9 +2825,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -2836,6 +2988,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
       objectReference: {fileID: 0}
@@ -2903,6 +3063,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -3039,9 +3207,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -3130,6 +3306,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 9,5
@@ -3195,9 +3379,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -3272,6 +3464,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -3339,6 +3539,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -3470,6 +3678,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -3537,6 +3753,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -3625,6 +3845,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
       objectReference: {fileID: 0}
@@ -3708,6 +3936,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -3785,6 +4017,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -3858,9 +4098,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -4018,6 +4266,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -4091,9 +4347,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -4246,9 +4510,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -4328,9 +4600,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -4488,6 +4768,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -4560,9 +4844,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -4646,6 +4938,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 11,5
@@ -4877,9 +5177,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -5026,6 +5334,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 216800d738e8b4d499a4bd5df91f00e9, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 216800d738e8b4d499a4bd5df91f00e9, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 216800d738e8b4d499a4bd5df91f00e9, type: 3}
       propertyPath: m_text
       value: 11,-4
@@ -5177,6 +5493,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -5249,6 +5573,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 2,0
@@ -5318,6 +5650,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 50bfc6e7c71654d4dbb86eb20d6ba0c7, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 50bfc6e7c71654d4dbb86eb20d6ba0c7, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 50bfc6e7c71654d4dbb86eb20d6ba0c7, type: 3}
       propertyPath: m_text
       value: 11,0
@@ -5629,6 +5969,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 12,0
@@ -5693,6 +6041,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 11,-3
@@ -5725,6 +6081,7 @@ GameObject:
   - component: {fileID: 417037790}
   - component: {fileID: 417037789}
   - component: {fileID: 417037791}
+  - component: {fileID: 417037792}
   m_Layer: 0
   m_Name: BankManager
   m_TagString: Untagged
@@ -5774,6 +6131,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   costOfTower: 30
+--- !u!114 &417037792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417037788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 860a09263381ab845a779808c4c631f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  costOfGunTower: 50
 --- !u!4 &418590286 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 478568, guid: cc10ce20cd2faea4ca8cb6505e5861d5, type: 3}
@@ -5916,6 +6286,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -5984,6 +6362,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -6051,6 +6437,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 7,-4
@@ -6259,6 +6653,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -6327,9 +6729,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -6474,6 +6884,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -6794,9 +7208,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -6871,6 +7293,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -6942,6 +7368,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 0,0
@@ -7114,6 +7548,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3150076685048311626, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
   m_PrefabInstance: {fileID: 59701914}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &502271820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5827495441377124132, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+  m_PrefabInstance: {fileID: 1576859701074108053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &502271821 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+  m_PrefabInstance: {fileID: 1576859701074108053}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &507580697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7235,6 +7679,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
@@ -7490,9 +7942,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -7572,9 +8032,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -7653,6 +8121,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 11,-1
@@ -8028,9 +8504,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -8115,6 +8599,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -8187,6 +8679,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
@@ -8412,6 +8912,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -8484,9 +8988,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -8561,6 +9073,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -8634,9 +9154,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -8711,9 +9239,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -8787,6 +9323,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: m_text
       value: 0,-1
@@ -8866,6 +9410,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: m_text
       value: 0,-1
@@ -9009,9 +9561,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -9183,6 +9743,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 1
@@ -9407,6 +9975,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -9484,6 +10060,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 13,5
@@ -9553,6 +10137,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -9851,9 +10443,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -9927,6 +10527,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
@@ -10256,6 +10864,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -10328,6 +10944,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: ec899d205e8863843835f7785cca2054, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: ec899d205e8863843835f7785cca2054, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: ec899d205e8863843835f7785cca2054, type: 3}
       propertyPath: m_text
       value: 4,5
@@ -10392,6 +11016,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -10627,6 +11259,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -10782,9 +11418,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -10937,9 +11581,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -11480,9 +12132,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -11560,6 +12220,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -11639,9 +12307,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -11963,9 +12639,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -12045,9 +12729,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -12127,9 +12819,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -12270,9 +12970,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -12570,6 +13278,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -12710,6 +13426,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -12856,6 +13576,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -12923,6 +13651,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
@@ -12997,6 +13733,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
       objectReference: {fileID: 0}
@@ -13069,6 +13813,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -13288,6 +14040,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 5,-1
@@ -13636,9 +14396,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -13869,6 +14637,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -14002,9 +14774,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -14326,6 +15106,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -14399,9 +15187,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -14770,9 +15566,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -14862,6 +15666,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -14943,6 +15751,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 15,1
@@ -15007,6 +15823,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 1,0
@@ -15071,6 +15895,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
@@ -15443,6 +16275,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -15510,6 +16350,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -15582,6 +16426,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
@@ -15740,6 +16592,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 4,6
@@ -15897,6 +16757,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 5,-2
@@ -16117,6 +16985,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -16345,6 +17217,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 15,2
@@ -16488,9 +17368,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -16619,9 +17507,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -16701,9 +17597,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -16861,6 +17765,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -16932,6 +17840,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 15,4
@@ -17069,6 +17985,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 52afb37c5ba60e64bb18057f55b50006, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 52afb37c5ba60e64bb18057f55b50006, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 52afb37c5ba60e64bb18057f55b50006, type: 3}
       propertyPath: m_text
       value: 15,5
@@ -17663,9 +18587,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -17901,6 +18833,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
       objectReference: {fileID: 0}
@@ -17974,6 +18914,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -18041,6 +18989,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -18115,9 +19071,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -18343,9 +19307,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -18434,6 +19406,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -19146,6 +20122,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -19609,9 +20593,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -19685,6 +20677,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 9,-4
@@ -19822,6 +20822,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: ec899d205e8863843835f7785cca2054, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: ec899d205e8863843835f7785cca2054, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: ec899d205e8863843835f7785cca2054, type: 3}
       propertyPath: m_text
       value: 5,-4
@@ -20033,6 +21041,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
       objectReference: {fileID: 0}
@@ -20189,9 +21205,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -20499,6 +21523,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 10,5
@@ -20636,6 +21668,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 14,5
@@ -20715,6 +21755,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -20945,9 +21993,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -21115,6 +22171,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -21260,6 +22324,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 3,0
@@ -21387,6 +22459,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -21455,9 +22535,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -21688,9 +22776,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -21843,9 +22939,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -22143,6 +23247,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 5,-3
@@ -22218,6 +23330,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -22285,6 +23405,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -22393,9 +23521,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -22543,9 +23679,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -22843,6 +23987,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 11,-2
@@ -22908,9 +24060,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -22995,9 +24155,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -23072,6 +24240,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
       objectReference: {fileID: 0}
@@ -23144,6 +24320,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
@@ -23227,6 +24407,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -23299,6 +24487,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 14,0
@@ -23437,9 +24633,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -23514,6 +24718,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -23586,6 +24798,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 10,-4
@@ -23967,6 +25187,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 6,-4
@@ -24114,6 +25342,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -24490,9 +25726,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -24576,6 +25820,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 216800d738e8b4d499a4bd5df91f00e9, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 216800d738e8b4d499a4bd5df91f00e9, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 216800d738e8b4d499a4bd5df91f00e9, type: 3}
       propertyPath: m_text
       value: 15,0
@@ -24760,6 +26012,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
       objectReference: {fileID: 0}
@@ -24837,6 +26097,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -25076,6 +26344,16 @@ Transform:
   - {fileID: 1168491125}
   m_Father: {fileID: 1572622470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1781515144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8270813913984797204, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+  m_PrefabInstance: {fileID: 2787207125426219123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1781515145 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+  m_PrefabInstance: {fileID: 2787207125426219123}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1781985713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25198,6 +26476,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -25269,6 +26551,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
@@ -25343,6 +26633,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -25411,9 +26709,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -25581,6 +26887,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -25649,9 +26963,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -25726,9 +27048,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -25969,6 +27299,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -26041,6 +27379,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: placeable
       value: 0
@@ -26124,6 +27470,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -26354,9 +27708,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -26431,6 +27793,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: gunTower
       value: 
       objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
@@ -26503,9 +27869,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 1
@@ -26580,9 +27954,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -26661,6 +28043,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 12,5
@@ -26730,6 +28120,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
@@ -27338,9 +28736,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -27384,7 +28790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1990574266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27461,6 +28867,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1146148027}
+  - {fileID: 1781515145}
+  - {fileID: 502271821}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -27978,9 +29386,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -28205,6 +29621,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 8,-4
@@ -28270,9 +29694,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -28347,6 +29779,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -28420,9 +29860,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -28663,6 +30111,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
+    - target: {fileID: 6777890906675999131, guid: d7c69761a6da2f24687954d94038a53b, type: 3}
       propertyPath: greenPlace
       value: 1
       objectReference: {fileID: 0}
@@ -28887,9 +30343,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 502271820}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: isEmpty
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 6777890906675999131, guid: e1032ff7d8522414e87006dcf7a34138, type: 3}
       propertyPath: placeable
       value: 0
@@ -29175,6 +30639,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 20a9b949dc30a9044a45180692f502da, type: 3}
       propertyPath: m_text
       value: 13,0
@@ -29468,6 +30940,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1781515144}
+    - target: {fileID: 6777890906675999131, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
+      propertyPath: gunTower
+      value: 
+      objectReference: {fileID: 4291372685790677789, guid: 88671afcdd366224792a6b0d10454a04, type: 3}
     - target: {fileID: 7692593081792972438, guid: 97df9b8fbeed48b459118470f688be1e, type: 3}
       propertyPath: m_text
       value: 15,3
@@ -29489,6 +30969,220 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 497330, guid: 385e440e39a69044bbd3453c1caa8158, type: 3}
   m_PrefabInstance: {fileID: 1781985713}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1576859701074108053
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1990574269}
+    m_Modifications:
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5024176
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6547284
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 764
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 793
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 366859721507257592, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827495441377124132, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+      propertyPath: m_Name
+      value: RedButton
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2caff3288dfc0db4daab71a3e37e3253, type: 3}
+--- !u!1001 &2787207125426219123
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1990574269}
+    m_Modifications:
+    - target: {fileID: 8270813913984797204, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_Name
+      value: GreenButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5311767
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.3378158
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 770
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 889
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8441257024627295341, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8705448660843964848, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
+      propertyPath: _variatySpaces
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6642a79ad4764c949aa9af13a33ecdb3, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

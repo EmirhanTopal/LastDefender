@@ -9,6 +9,7 @@ public class BankManager : MonoBehaviour
 {
     [SerializeField] private int startingMoney;
     [SerializeField] int currentMoney; // manipüle edilip fazladan para aktarılabilir o yüzden private
+    private TowerManager _towerManager;
     public int CurrentMoney // fakat farklı class lardan da erişebilmek için getter ayarladık
     {
         get { return currentMoney; }
@@ -16,6 +17,20 @@ public class BankManager : MonoBehaviour
     void Awake()
     {
         currentMoney = startingMoney;
+    }
+
+    private void Start()
+    {
+        _towerManager = FindObjectOfType<TowerManager>();
+    }
+
+    public bool HaveMoney()
+    {
+        if (CurrentMoney >= _towerManager.CostOfTower)
+        {
+            return true;
+        }
+        return false;
     }
     public void EarnedMoney(int amount) 
     {

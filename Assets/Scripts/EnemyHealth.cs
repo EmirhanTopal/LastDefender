@@ -11,6 +11,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int difficultyHealthPoint;
     private int _currentPoint = 0;
     private Tower _tower;
+    private GunTower _gunTower;
     private Enemy _enemy;
 
     private void OnEnable()
@@ -30,7 +31,13 @@ public class EnemyHealth : MonoBehaviour
             _tower = GameObject.FindObjectOfType<Tower>();
             _currentPoint -= _tower.arrowDamage;
         }
-
+        
+        if (other.gameObject.CompareTag("Gun"))
+        {
+            _gunTower = GameObject.FindObjectOfType<GunTower>();
+            _currentPoint -= _gunTower.BulletDamage;
+        }
+        
         if (_currentPoint <= 0)
         {
             gameObject.SetActive(false);
