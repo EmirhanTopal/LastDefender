@@ -14,6 +14,8 @@ public class GunTower : MonoBehaviour
     private Transform _enemyTransform;
     private float _distanceEnemy;
     private float _newDistance;
+    
+    
     private void Start()
     {
         particleSystem = GetComponent<ParticleSystem>();
@@ -25,7 +27,7 @@ public class GunTower : MonoBehaviour
         LookAtEnemy();
     }
 
-    private void FindClosestEnemy()
+    private Transform FindClosestEnemy()
     {
         Enemy[] enemyList = FindObjectsOfType<Enemy>();
         _distanceEnemy = Mathf.Infinity;
@@ -40,13 +42,22 @@ public class GunTower : MonoBehaviour
             }
         }
         _enemyTransform = closestEnemy;
+        return _enemyTransform;
     }
 
+    void RotateGunMan()
+    {
+        Transform closestEnemy = FindClosestEnemy();
+        Vector3 direction = (closestEnemy.position - gunMan.transform.position).normalized;
+        Quaternion look = Quaternion.LookRotation(direction);
+        gunMan.transform.rotation = Quaternion.Slerp(gunMan.transform.rotation, look, 7 * Time.deltaTime);
+    }
     private void LookAtEnemy()
     {
         if (_enemyTransform != null)
         {
-            gunMan.transform.LookAt(_enemyTransform.transform.position);
+            RotateGunMan();
+            //gunMan.transform.LookAt(_enemyTransform.transform.position);
             
             float distance = Vector3.Distance(this.transform.position, _enemyTransform.position);
             if (distance < rangeOfGunTower)
@@ -54,13 +65,13 @@ public class GunTower : MonoBehaviour
                 var emissionModule = particleSystem.emission;
                 if (emissionModule.enabled == false)
                 {
-                    AnimatorHandle(true);
+                    FireAnim(true);
                     Attack(true);
                 }
             }
             else
             {
-                AnimatorHandle(false);
+                FireAnim(false);
                 Attack(false);
             }
         }
@@ -72,7 +83,7 @@ public class GunTower : MonoBehaviour
         emissionModule.enabled = isActive;
     }
 
-    private bool AnimatorHandle(bool isFire)
+    private bool FireAnim(bool isFire)
     {
         animator.SetBool(_isFire, isFire);
         return isFire;
