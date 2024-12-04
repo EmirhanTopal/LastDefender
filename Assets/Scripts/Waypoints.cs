@@ -7,9 +7,11 @@ using UnityEngine;
 // [serializefield] attribute: bir değişkenin private olmasına rağmen Unity'nin Inspector panelinde görünmesini sağlar.
 public class Waypoints : MonoBehaviour
 {
-    [SerializeField] private bool placeable;
+    [SerializeField] private bool greenPlace;
+    [SerializeField] private bool blackPlace;
     [SerializeField] private bool isEmpty = true;
     [SerializeField] private GameObject tower;
+    [SerializeField] private GameObject gunTower;
     private TowerManager _towerManager;
     private bool _canBuy;
     private void Start()
@@ -29,12 +31,21 @@ public class Waypoints : MonoBehaviour
     private void OnMouseDown()
     {
         _canBuy = _towerManager.HaveMoney();
-        if (placeable && isEmpty && _canBuy)
+        if (isEmpty && _canBuy)
         {
-            Vector3 towerPosition = new Vector3(transform.position.x, transform.position.y + 1.53f, transform.position.z);
-            tower = Instantiate(tower, towerPosition, Quaternion.identity);
-            isEmpty = false; // grid space control
-            //Debug.Log(isEmpty);
+            if (greenPlace)
+            {
+                Vector3 towerPosition = new Vector3(transform.position.x, transform.position.y + 1.53f, transform.position.z);
+                tower = Instantiate(tower, towerPosition, Quaternion.identity);
+                isEmpty = false; // grid space control
+                
+            }
+            if (blackPlace)
+            {
+                Vector3 gunTowerPosition = new Vector3(transform.position.x + 2, transform.position.y + 7.45f, transform.position.z + 2);
+                Instantiate(gunTower, gunTowerPosition, Quaternion.identity);
+                isEmpty = false;
+            }
         }
     }
 }

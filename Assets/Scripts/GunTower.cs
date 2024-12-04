@@ -6,7 +6,8 @@ using UnityEngine.Serialization;
 
 public class GunTower : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem particleSystem;
+    [SerializeField] private GameObject particleSystem;
+    private ParticleSystem _bulletParticle;
     [SerializeField] [Range(10, 200)] private float rangeOfGunTower;
     [SerializeField] private GameObject gunMan;
     [SerializeField] private Animator animator;
@@ -14,11 +15,15 @@ public class GunTower : MonoBehaviour
     private Transform _enemyTransform;
     private float _distanceEnemy;
     private float _newDistance;
+    [SerializeField] private float slerpRotationSpeed;
     
     
     private void Start()
     {
-        particleSystem = GetComponent<ParticleSystem>();
+        if (particleSystem != null)
+        {
+            _bulletParticle = particleSystem.GetComponent<ParticleSystem>();
+        }
     }
 
     private void Update()
@@ -50,7 +55,7 @@ public class GunTower : MonoBehaviour
         Transform closestEnemy = FindClosestEnemy();
         Vector3 direction = (closestEnemy.position - gunMan.transform.position).normalized;
         Quaternion look = Quaternion.LookRotation(direction);
-        gunMan.transform.rotation = Quaternion.Slerp(gunMan.transform.rotation, look, 7 * Time.deltaTime);
+        gunMan.transform.rotation = Quaternion.Slerp(gunMan.transform.rotation, look, slerpRotationSpeed * Time.deltaTime);
     }
     private void LookAtEnemy()
     {
@@ -62,7 +67,7 @@ public class GunTower : MonoBehaviour
             float distance = Vector3.Distance(this.transform.position, _enemyTransform.position);
             if (distance < rangeOfGunTower)
             {
-                var emissionModule = particleSystem.emission;
+                var emissionModule = _bulletParticle.emission;
                 if (emissionModule.enabled == false)
                 {
                     FireAnim(true);
@@ -79,7 +84,7 @@ public class GunTower : MonoBehaviour
     
     private void Attack(bool isActive)
     {
-        var emissionModule = particleSystem.emission;
+        var emissionModule = _bulletParticle.emission;
         emissionModule.enabled = isActive;
     }
 
